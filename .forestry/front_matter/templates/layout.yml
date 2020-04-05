@@ -17,3 +17,5 @@ fields:
     min: 
     max: 
   label: Blocks
+pages:
+- content/pages/Homepage.md
