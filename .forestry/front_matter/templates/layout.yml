@@ -18,5 +18,15 @@ fields:
     min: 
     max: 
   label: Blocks
+- name: published_date
+  type: datetime
+  label: Published Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 pages:
 - content/pages/Homepage.md
