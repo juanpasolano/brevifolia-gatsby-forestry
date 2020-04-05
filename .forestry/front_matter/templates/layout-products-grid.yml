@@ -7,3 +7,15 @@ fields:
   config: {}
   template: info-page
   label: 'asd asd '
+- name: projects
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: blog-posts
+      file: 
+      path: 
+  label: Projects
