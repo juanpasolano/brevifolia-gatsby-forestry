@@ -7,6 +7,14 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: content/pages
+  label: Pages
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - layout
+- type: directory
   path: content/posts
   label: Blog Posts
   create: documents
