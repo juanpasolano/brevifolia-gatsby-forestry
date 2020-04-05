@@ -12,6 +12,7 @@ fields:
   type: blocks
   template_types:
   - site-info
+  - layout-quote-image
   config:
     min: 
     max: 
