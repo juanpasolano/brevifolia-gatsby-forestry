@@ -2,6 +2,11 @@
 label: Layout
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: blocks
   type: blocks
   template_types:
