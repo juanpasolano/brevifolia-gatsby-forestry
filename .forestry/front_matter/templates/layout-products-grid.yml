@@ -1,4 +1,9 @@
 ---
 label: Layout > Products Grid
 hide_body: true
-fields: []
+fields:
+- name: asd_asd_
+  type: include
+  config: {}
+  template: info-page
+  label: 'asd asd '
