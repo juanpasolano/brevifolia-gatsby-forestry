@@ -2,11 +2,6 @@
 label: Layout > Products Grid
 hide_body: true
 fields:
-- name: asd_asd_
-  type: include
-  config: {}
-  template: info-page
-  label: 'asd asd '
 - name: projects
   type: select
   default: []
@@ -19,3 +14,18 @@ fields:
       file: 
       path: 
   label: Projects
+- name: projects_lists
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: blog-posts
+  label: Projects Lists
+- name: asd_asd_
+  type: include
+  config: {}
+  template: info-page
+  label: 'asd asd '
