@@ -1,5 +1,5 @@
 ---
-title: ''
+title: Home PAge
 blocks:
 - template: layout-quote-image
   title: This is the title of the qutoe
